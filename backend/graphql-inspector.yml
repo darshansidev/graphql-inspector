@@ -1,0 +1,2 @@
+schema: http://localhost:5005/api/
+documents: ./src/**/*.graphql

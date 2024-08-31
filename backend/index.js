@@ -34,7 +34,7 @@ const startServer = async () => {
                 console.log('MongoDB connected successfully.');
                 // Start Express server on port 5005
                 app.listen(5005, () =>
-                    console.log(`Server running at http://localhost:5005/api`)
+                    console.log(`Server running at http://localhost:5005/api/`)
                 );
             }).catch((e) => {
                 console.log("Error For Connection with MongoDB Cluster...", e)
