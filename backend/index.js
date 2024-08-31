@@ -6,13 +6,13 @@ const app = express();
 // Define your GraphQL schema (typeDefs and resolvers)
 const typeDefs = `
   type Query {
-    hello: String
+    test: String
   }
 `;
 
 const resolvers = {
     Query: {
-        hello: () => 'Hello, world!',
+        test: () => 'Hello, world!',
     },
 };
 
